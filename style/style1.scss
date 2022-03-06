@@ -37,7 +37,7 @@ body {
 
 .head-image_image {
   background-color: aqua;
-  width: 100%;
+  @extend .col;
   height: auto;
 }
 .container {

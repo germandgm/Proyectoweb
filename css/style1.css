@@ -31,7 +31,7 @@
   text-decoration: none;
 }
 
-.col {
+.col, .head-image_image {
   width: 100%;
 }
 
@@ -69,7 +69,6 @@ body {
 
 .head-image_image {
   background-color: aqua;
-  width: 100%;
   height: auto;
 }
 
