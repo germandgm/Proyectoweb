@@ -1,0 +1,531 @@
+@import "variables";
+@import "general";
+@import "index";
+
+.col {
+  width: 100%;
+}
+
+body {
+  font-family: $fontfamily;
+}
+
+.logogamers {
+  height: 15%;
+  width: 15%;
+  margin-top: 5px;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: 0.65;
+}
+
+.head-image_image {
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 95%;
+}
+.headerstyle {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titulo-carrusel {
+  text-align: center;
+}
+.titulo-seccion {
+  /*background-color: red;*/
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  margin: 1rem;
+}
+.titulo-categoria {
+  text-align: center;
+  color: black;
+}
+.titulo.producto {
+  text-align: center;
+  color: black;
+}
+
+.img-box {
+  margin-top: 0;
+  text-align: right;
+}
+
+.download {
+  padding: 0 0 5rem 0;
+}
+
+.download__title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.download__logo-box {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.cat {
+  background: transparent;
+}
+.card {
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+
+.card--light {
+  background: transparent;
+}
+
+.card__image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card__title {
+  text-align: center;
+}
+
+.categorias {
+  background: white;
+  width: 100%;
+}
+/*segundo desafio*/
+/* color para los h1  */
+h1 {
+  color: whitesmoke;
+}
+
+/*fondo para los header de cada pagina*/
+header {
+  background-color: black;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: black;
+}
+/*
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+
+.footer-sm a {
+  color: white;
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}*/
+
+.footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer-bottom {
+  padding: 1.5rem 0;
+}
+/*
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.footer-bottom__copyright a {
+  color: gray;
+  text-decoration: none;
+}*/
+
+.footer-bottom__copyright a:hover {
+  color: #72c777;
+  text-decoration: underline;
+}
+
+.publicidad {
+  background-color: purple;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+.grid-container {
+  display: grid;
+  padding: 80px;
+  grid-template-columns: 200px 150px 150px;
+  grid-auto-rows: 150px;
+  grid-gap: 20px;
+  max-width: 100%;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  grid-template-areas:
+    "registro registro registro"
+    "usuario campousuario campousuario"
+    "contraseña campopass campopass"
+    "correo campocorreo campocorreo"
+    "nombre camponombre camponombre"
+    "apellido campoapellido campoapellido"
+    "sexo campoh campom"
+    "terminos terminos terminos"
+    "botones botones botones";
+}
+
+.grid-item {
+  font-size: 1rem;
+  padding: 50px 20px 20px 20px;
+  background-color: transparent;
+  color: black;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.grid-item1 {
+  grid-area: registro;
+}
+.grid-item2 {
+  grid-area: usuario;
+}
+
+.grid-item2-1 {
+  grid-area: campousuario;
+}
+
+.grid-item3 {
+  grid-area: contraseña;
+}
+
+.grid-item3-1 {
+  grid-area: campopass;
+}
+
+.grid-item4 {
+  grid-area: correo;
+}
+
+.grid-item4-1 {
+  grid-area: campocorreo;
+}
+.grid-item5 {
+  grid-area: nombre;
+}
+
+.grid-item5-1 {
+  grid-area: camponombre;
+}
+.grid-item6 {
+  grid-area: apellido;
+}
+
+.grid-item6-1 {
+  grid-area: campoapellido;
+}
+.grid-item7 {
+  grid-area: sexo;
+}
+
+.grid-item7-1 {
+  grid-area: campoh;
+}
+.grid-item7-2 {
+  grid-area: campom;
+}
+.grid-item8 {
+  grid-area: terminos;
+}
+
+.grid-item9 {
+  grid-area: botones;
+}
+
+.container--faqgrid {
+  display: grid;
+  padding: 80px;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  grid-template-areas:
+    "titulo titulo titulo"
+    "cuentas pagos entregas"
+    "problemas devoluciones garantias";
+}
+
+.titulo-1 {
+  grid-area: titulo;
+  font-size: 2rem;
+  padding: 0px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.articulo-1 {
+  grid-area: cuentas;
+}
+
+.articulo-2 {
+  grid-area: pagos;
+}
+
+.articulo-3 {
+  grid-area: entregas;
+}
+
+.articulo-4 {
+  grid-area: problemas;
+}
+
+.articulo-5 {
+  grid-area: devoluciones;
+}
+
+.articulo-6 {
+  grid-area: garantias;
+}
+
+.art-texto {
+  text-align: center;
+  justify-content: center;
+}
+
+.container--aboutgrid {
+  display: grid;
+  padding: 95px;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+  grid-template-areas:
+    "title title title"
+    "gaming gamers gamers"
+    "soporte soporte apoyo"
+    "seller ventas ventas";
+}
+
+.titulo-2 {
+  grid-area: title;
+  font-size: 2rem;
+  padding: 0px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.objeto-1 {
+  grid-area: gaming;
+}
+
+.objeto-2 {
+  grid-area: gamers;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  padding: 60px 0px 60px 0px;
+}
+
+.objeto-3 {
+  grid-area: soporte;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  padding: 60px 0px 60px 0px;
+}
+
+.objeto-4 {
+  grid-area: apoyo;
+}
+
+.objeto-5 {
+  grid-area: seller;
+}
+
+.objeto-6 {
+  grid-area: ventas;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  padding: 60px 0px 60px 0px;
+}
+
+.container-contactanos {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+  grid-template-areas:
+    "title2 title2 title2 title2"
+    "name name fieldname fieldname"
+    "lastname lastname fieldlastname fieldlastname"
+    "numcontacto numcontacto fieldnumcontacto fieldnumcontacto"
+    "mail mail fieldmail fieldmail"
+    "consulta consulta fieldconsulta fieldconsulta"
+    "enviar enviar resetear resetear";
+}
+
+.titulo-3 {
+  grid-area: title2;
+  font-size: 2rem;
+  padding: 0px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.contact {
+  font-size: 2rem;
+  padding: 50px 20px 20px 20px;
+  background-color: transparent;
+  color: black;
+  text-align: left;
+  justify-content: center;
+}
+.contact-1 {
+  grid-area: name;
+}
+
+.contact-2 {
+  grid-area: fieldname;
+}
+
+.contact-3 {
+  grid-area: lastname;
+}
+
+.contact-4 {
+  grid-area: fieldlastname;
+}
+
+.contact-5 {
+  grid-area: numcontacto;
+}
+
+.contact-6 {
+  grid-area: fieldnumcontacto;
+}
+
+.contact-7 {
+  grid-area: mail;
+}
+
+.contact-8 {
+  grid-area: fieldmail;
+}
+
+.contact-9 {
+  grid-area: consulta;
+}
+
+.contact-10 {
+  grid-area: fieldconsulta;
+}
+
+.contact-11 {
+  grid-area: enviar;
+}
+
+.contact-12 {
+  grid-area: resetear;
+}
+
+.container-ingresar {
+  display: grid;
+  padding: 100px;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+  grid-template-areas:
+    "title3 title3 title3"
+    "usuario fielduser fielduser"
+    "pass fieldpass fieldpass"
+    "send send send";
+}
+
+.ingresar {
+  font-size: 2rem;
+  padding: 50px 20px 20px 20px;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.ingresar-1 {
+  grid-area: title3;
+}
+
+.ingresar-2 {
+  grid-area: usuario;
+}
+
+.ingresar-3 {
+  grid-area: fielduser;
+}
+
+.ingresar-4 {
+  grid-area: pass;
+}
+
+.ingresar-5 {
+  grid-area: fieldpass;
+}
+
+.ingresar-6 {
+  grid-area: send;
+}
