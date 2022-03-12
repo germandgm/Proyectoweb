@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 .footer-sm {
   background-color: #212121;
   color: white;
@@ -18,4 +19,9 @@
     color: gray;
     text-decoration: none;
   }
+}
+
+.nav-form-control {
+  background-color: $dark;
+  border-color: $dark;
 }

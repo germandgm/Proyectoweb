@@ -1,0 +1,23 @@
+{
+  "name": "entregable_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch style/style1.scss css/style1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germandgm/Proyectoweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germandgm/Proyectoweb/issues"
+  },
+  "homepage": "https://github.com/germandgm/Proyectoweb#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

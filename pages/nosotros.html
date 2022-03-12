@@ -13,55 +13,59 @@
     <title>Nosotros</title>
   </head>
   <body>
+    <script src="js/bootstrap.js"></script>
     <header>
-      <div class="container">
-        <div class="row">
-          <a href="" class="logo">
-            <img class="logogamers" src="../imagenes/logo.png" alt="" />
-          </a>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" id="home" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a
-                  class="nav__link"
-                  id="register"
-                  href="registro.html"
-                  target="blank"
-                  >Registro</a
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Gamers United</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="faq.html"
+                  >FAQ</a
                 >
               </li>
-
-              <li class="nav__item">
-                <a class="nav__link" id="faq" href="faq.html">FAQ</a>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
               </li>
-              <li class="nav__item">
-                <a class="nav__link" id="us" href="nosotros.html">Nosotros</a>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registrate</a>
               </li>
-              <li class="nav__item">
-                <a class="nav__link" id="contact" href="contacto.html"
-                  >Contacto</a
-                >
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
               </li>
-              <li class="nav__item">
-                <input type="text" placeholder="Buscar..." />
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
-              <li class="nav__item">
-                <a class="nav__link" id="login" href="ingresar.html"
-                  >Ingresar</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" id="login" href="ingresar.html"
-                  >Carrito de Compras</a
-                >
+              <li class="nav-item">
+                <a class="nav-link disabled">Carrito de Compras</a>
               </li>
             </ul>
-          </nav>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <section>
       <div class="card container--aboutgrid">
