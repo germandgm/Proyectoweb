@@ -69,7 +69,7 @@
     </header>
 
     <section>
-      <form action="">
+      <!--<form action="">
         <fieldset>
           <div class="card container-contactanos">
             <div class="titulo-3">
@@ -119,7 +119,67 @@
             </div>
           </div>
         </fieldset>
-      </form>
+      </form>-->
+      <fieldset class="container">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label"
+            >Correo electronico</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Ingresa tu correo electronico"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Nombre completo</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Ingresa tu nombre y apellido"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Numero de contacto Fijo/Celular</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Numero de contacto"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom04" class="form-label"
+            >Motivo de contacto</label
+          >
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Elige...</option>
+            <option>Entregas</option>
+            <option>Garantia</option>
+            <option>Reintegros</option>
+            <option>Devoluciones</option>
+            <option>Otro</option>
+          </select>
+          <div class="invalid-feedback">Selecciona un motivo de contacto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Consulta</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="10"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </fieldset>
     </section>
 
     <footer class="footer">
