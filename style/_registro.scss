@@ -1,0 +1,27 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.footer-sm {
+  background-color: #212121;
+  color: white;
+  a {
+    color: white;
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+}
+
+.nav-form-control {
+  background-color: $dark;
+  border-color: $dark;
+}
