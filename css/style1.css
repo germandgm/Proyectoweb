@@ -11972,10 +11972,11 @@ h4 {
   grid-gap: 40px;
   width: 100%;
   height: 100%;
-  /*justify-content: center;
-  align-content: center;*/
+  justify-content: center;
+  align-content: center;
   background: transparent;
-  grid-template-areas: "title title title" "gaming gamers gamers" "soporte soporte apoyo" "seller ventas ventas";
+  /*grid-template-areas: "title title title" "gaming gamers gamers" "soporte soporte apoyo" "seller ventas ventas";*/
+  grid-template-areas: "title title title" "gaming gaming gaming" "gamers gamers gamers" "apoyo apoyo apoyo" "soporte soporte soporte" "seller seller seller" "ventas ventas ventas";
 }
 
 .titulo-2 {
@@ -11989,9 +11990,6 @@ h4 {
 
 .objeto-1 {
   grid-area: gaming;
-  justify-content: center;
-  align-content: center;
-  padding: 60px 0px 60px 0px;
 }
 
 .objeto-2 {
@@ -12004,23 +12002,18 @@ h4 {
 
 .objeto-3 {
   grid-area: soporte;
-  justify-content: center;
-  align-content: center;
-  padding: 60px 0px 60px 0px;
 }
 
 .objeto-4 {
   grid-area: apoyo;
   justify-content: center;
   align-content: center;
+  text-align: justify;
   padding: 60px 0px 60px 0px;
 }
 
 .objeto-5 {
   grid-area: seller;
-  justify-content: center;
-  align-content: center;
-  padding: 60px 0px 60px 0px;
 }
 
 .objeto-6 {
